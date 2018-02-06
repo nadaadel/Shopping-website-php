@@ -1,0 +1,212 @@
+.logo {
+    max-width: 30%;
+    margin: 10px;
+}
+.hed {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    text-align: right;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tet {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    max-width: 100%;
+    font-family: 'lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+#content {
+    max-width: 100%;
+    font-family: "lato", sans-serif;
+    color: #2d3c49;
+    font-size: 15px;
+    display: block;
+    overflow: auto;
+    height: 10em;
+}
+.text-thin {
+    font-family: "lato", sans-serif;
+    color: #2d3c49;
+    margin-right: 0px;
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+.text-h3 {
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    float: right;
+}
+.text-muted {
+    color: #2d3c49;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .box1 {
+        width: 50%;
+    }
+    .box2 {
+        width: 50%;
+    }
+    .box3 {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .box2 {
+        width: 100%;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+}
+.view {
+    padding: 3px;
+    margin: 10px;
+}
+
+.product-item {
+    display: inline-block;
+    margin-top: 50px;
+}
+.categories{
+    display: flex;
+}
+.w3-button {width:200px;
+            height: 50px;
+            background-color: #b3cccc;
+}
+.i-button {width:100px;
+           height: 40px;
+           background-color: #b3cccc;
+           margin-right: 50px;
+}
+.ie-button {width:70px;
+            height: 40px;
+            background-color: #b3cccc;
+}
+.c-button {width:90px;
+           height: 40px;
+           background-color: #008EFF;
+}
+.img-r {
+    margin: 0 auto;
+}
+
+.searchform{
+
+}
+.searchform input {
+    border: 1px solid #DDDDDD;
+    color: #CCCCC6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 7px;
+    outline: medium none;
+    padding: 7px;
+    width: 120px;
+}
+
+.searchform button {
+    background: #008EFF;
+    color: white;
+    height: 40px;
+    border: medium none;
+    border-radius: 0;
+    margin-left: -5px;
+    margin-top: -45px;
+    padding: 12px;
+}
+.searchform button i {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.checkout{
+    float:left;
+    margin-top: 10px;
+
+    display: flex;
+
+}
+.form-control form{
+
+    margin-top: 19px;
+
+}
+
+#name-list {
+    float: left;
+    list-style: none;
+    margin-top: -3px;
+    padding: 0;
+    width: 190px;
+    position: absolute;
+}
+#name-list li {
+    width: 120px;
+    padding: 10px;
+    margin-left: 8px;
+    background: #f0f0f0;
+    border-bottom: #bbb9b9 1px solid;
+    margin-left: 10px;
+
+}
+.proCheck{
+    display: flex;
+    padding: 20px;
+    float: right;
+
+}
+.rmBtn{
+    width: 110;
+    height: 50px;
+}
+.proName{
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #535050;
+}
+.img-r {
+    margin: 4px 7px auto;
+    display: block;
+}
+.addBtn{
+    float: right;
+    margin-top: -4px;
+    margin-right: 170px;
+}
+.login-area{
+    display: flex;
+    float: right;
+}
+.login-areas{
+    display: flex;
+    float: right;
+    margin-left: auto;
+}
+
+
+.divs img
+{
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    float:left;
+
+}

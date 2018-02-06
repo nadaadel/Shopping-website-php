@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+ServerAlias shopping.com
+ServerName shopping.com
+DocumentRoot /home/nada/shopping/web
+  <Directory /home/nada/shopping/web>
+    Require all granted
+    AllowOverride All
+    Allow from All
+  </Directory>
+</VirtualHost>
+
